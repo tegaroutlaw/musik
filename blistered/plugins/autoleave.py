@@ -2,9 +2,9 @@ import asyncio
 from datetime import datetime
 
 import config
-from geezram import app
-from geezram.core.call import Anon, autoend
-from geezram.utils.database import (get_client, is_active_chat,
+from blistered import app
+from blistered.core.call import Anon, autoend
+from blistered.utils.database import (get_client, is_active_chat,
                                        is_autoend)
 
 
@@ -13,7 +13,7 @@ async def auto_leave():
         while not await asyncio.sleep(
             config.AUTO_LEAVE_ASSISTANT_TIME
         ):
-            from geezram.core.userbot import assistants
+            from blistered.core.userbot import assistants
 
             for num in assistants:
                 client = await get_client(num)

@@ -18,9 +18,9 @@ from pytgcalls.types.stream import StreamAudioEnded
 
 import config
 from strings import get_string
-from geezram import LOGGER, YouTube, app
-from geezram.misc import db
-from geezram.utils.database import (add_active_chat,
+from blistered import LOGGER, YouTube, app
+from blistered.misc import db
+from blistered.utils.database import (add_active_chat,
                                        add_active_video_chat,
                                        get_assistant,
                                        get_audio_bitrate, get_lang,
@@ -29,11 +29,11 @@ from geezram.utils.database import (add_active_chat,
                                        music_on, set_loop,
                                        remove_active_chat,
                                        remove_active_video_chat)
-from geezram.utils.exceptions import AssistantErr
-from geezram.utils.inline.play import (stream_markup,
+from blistered.utils.exceptions import AssistantErr
+from blistered.utils.inline.play import (stream_markup,
                                           telegram_markup)
-from geezram.utils.stream.autoclear import auto_clean
-from geezram.utils.thumbnails import gen_thumb
+from blistered.utils.stream.autoclear import auto_clean
+from blistered.utils.thumbnails import gen_thumb
 
 autoend = {}
 counter = {}

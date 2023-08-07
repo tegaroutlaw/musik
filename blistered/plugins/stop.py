@@ -3,10 +3,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from geezram import app
-from geezram.core.call import Anon
-from geezram.utils.database import set_loop
-from geezram.utils.decorators import AdminRightsCheck
+from blistered import app
+from blistered.core.call import Anon
+from blistered.utils.database import set_loop
+from blistered.utils.decorators import AdminRightsCheck
 
 # Commands
 STOP_COMMAND = get_command("STOP_COMMAND")

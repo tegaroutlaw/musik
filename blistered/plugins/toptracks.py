@@ -4,14 +4,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup
 
 from config import BANNED_USERS
-from geezram import app
-from geezram.utils.database import (get_global_tops,
+from blistered import app
+from blistered.utils.database import (get_global_tops,
                                        get_particulars, get_userss)
-from geezram.utils.decorators.language import languageCB
-from geezram.utils.inline.playlist import (botplaylist_markup,
+from blistered.utils.decorators.language import languageCB
+from blistered.utils.inline.playlist import (botplaylist_markup,
                                               failed_top_markup,
                                               top_play_markup)
-from geezram.utils.stream.stream import stream
+from blistered.utils.stream.stream import stream
 
 loop = asyncio.get_running_loop()
 

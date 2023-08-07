@@ -5,10 +5,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS, MUSIC_BOT_NAME, PING_IMG_URL
 from strings import get_command
-from geezram import app
-from geezram.core.call import Anon
-from geezram.utils import bot_sys_stats
-from geezram.utils.decorators.language import language
+from blistered import app
+from blistered.core.call import Anon
+from blistered.utils import bot_sys_stats
+from blistered.utils.decorators.language import language
 
 ### Commands
 PING_COMMAND = get_command("PING_COMMAND")

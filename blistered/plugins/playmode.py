@@ -3,11 +3,11 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 
 from config import BANNED_USERS
 from strings import get_command
-from geezram import app
-from geezram.utils.database import (get_playmode, get_playtype,
+from blistered import app
+from blistered.utils.database import (get_playmode, get_playtype,
                                        is_nonadmin_chat)
-from geezram.utils.decorators import language
-from geezram.utils.inline.settings import playmode_users_markup
+from blistered.utils.decorators import language
+from blistered.utils.inline.settings import playmode_users_markup
 
 ### Commands
 PLAYMODE_COMMAND = get_command("PLAYMODE_COMMAND")

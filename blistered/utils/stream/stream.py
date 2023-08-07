@@ -5,19 +5,19 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from geezram import Carbon, YouTube, app
-from geezram.core.call import Anon
-from geezram.misc import db
-from geezram.utils.database import (add_active_video_chat,
+from blistered import Carbon, YouTube, app
+from blistered.core.call import Anon
+from blistered.misc import db
+from blistered.utils.database import (add_active_video_chat,
                                        is_active_chat,
                                        is_video_allowed)
-from geezram.utils.exceptions import AssistantErr
-from geezram.utils.inline.play import (stream_markup, queue_markup,
+from blistered.utils.exceptions import AssistantErr
+from blistered.utils.inline.play import (stream_markup, queue_markup,
                                           telegram_markup)
-from geezram.utils.inline.playlist import close_markup
-from geezram.utils.pastebin import Anonbin
-from geezram.utils.stream.queue import put_queue, put_queue_index
-from geezram.utils.thumbnails import gen_thumb, gen_qthumb
+from blistered.utils.inline.playlist import close_markup
+from blistered.utils.pastebin import Anonbin
+from blistered.utils.stream.queue import put_queue, put_queue_index
+from blistered.utils.thumbnails import gen_thumb, gen_qthumb
 
 
 async def stream(

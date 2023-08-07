@@ -12,17 +12,17 @@ from pytgcalls.__version__ import __version__ as pytgver
 import config
 from config import BANNED_USERS, MUSIC_BOT_NAME
 from strings import get_command
-from geezram import YouTube, app
-from geezram.core.userbot import assistants
-from geezram.misc import SUDOERS, pymongodb
-from geezram.plugins import ALL_MODULES
-from geezram.utils.database import (get_global_tops,
+from blistered import YouTube, app
+from blistered.core.userbot import assistants
+from blistered.misc import SUDOERS, pymongodb
+from blistered.plugins import ALL_MODULES
+from blistered.utils.database import (get_global_tops,
                                        get_particulars, get_queries,
                                        get_served_chats,
                                        get_served_users, get_sudoers,
                                        get_top_chats, get_topp_users)
-from geezram.utils.decorators.language import language, languageCB
-from geezram.utils.inline.stats import (back_stats_buttons,
+from blistered.utils.decorators.language import language, languageCB
+from blistered.utils.inline.stats import (back_stats_buttons,
                                            back_stats_markup,
                                            get_stats_markup,
                                            overallback_stats_markup,

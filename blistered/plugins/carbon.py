@@ -1,5 +1,5 @@
 from pyrogram import filters
-from geezram import app, aiohttpsession as aiosession
+from blistered import app, aiohttpsession as aiosession
 from io import BytesIO
 
 

@@ -26,7 +26,7 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/UserbotCh")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/GeezRAM")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/blistered")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "180"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
@@ -65,7 +65,7 @@ STRING5 = getenv("STRING_SESSION5", None)
 BANNED_USERS = filters.user()
 YTDOWNLOADER = 1
 LOG = 2
-LOG_FILE_NAME = "geezram.txt"
+LOG_FILE_NAME = "blistered.txt"
 adminlist = {}
 lyrical = {}
 chatstats = {}

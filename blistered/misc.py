@@ -5,7 +5,7 @@ import heroku3
 from pyrogram import filters
 
 import config
-from geezram.core.mongo import pymongodb
+from blistered.core.mongo import pymongodb
 
 from .logging import LOGGER
 

@@ -3,13 +3,13 @@ from pyrogram.types import Message
 
 import config
 from strings import get_command
-from geezram import app
-from geezram.misc import SUDOERS
-from geezram.utils.database import (add_private_chat,
+from blistered import app
+from blistered.misc import SUDOERS
+from blistered.utils.database import (add_private_chat,
                                        get_private_served_chats,
                                        is_served_private_chat,
                                        remove_private_chat)
-from geezram.utils.decorators.language import language
+from blistered.utils.decorators.language import language
 
 AUTHORIZE_COMMAND = get_command("AUTHORIZE_COMMAND")
 UNAUTHORIZE_COMMAND = get_command("UNAUTHORIZE_COMMAND")

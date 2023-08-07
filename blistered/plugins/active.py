@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from strings import get_command
-from geezram import app
-from geezram.misc import SUDOERS
-from geezram.utils.database.memorydatabase import (
+from blistered import app
+from blistered.misc import SUDOERS
+from blistered.utils.database.memorydatabase import (
     get_active_chats, get_active_video_chats)
 
 # Commands

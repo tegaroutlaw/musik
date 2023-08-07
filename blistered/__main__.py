@@ -7,10 +7,10 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from config import BANNED_USERS
-from geezram import LOGGER, app, userbot
-from geezram.core.call import Anon
-from geezram.plugins import ALL_MODULES
-from geezram.utils.database import get_banned_users, get_gbanned
+from blistered import LOGGER, app, userbot
+from blistered.core.call import Anon
+from blistered.plugins import ALL_MODULES
+from blistered.utils.database import get_banned_users, get_gbanned
 
 loop = asyncio.get_event_loop()
 
@@ -45,8 +45,8 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("geezram.plugins." + all_module)
-    LOGGER("geezram.plugins").info(
+        importlib.import_module("blistered.plugins." + all_module)
+    LOGGER("blistered.plugins").info(
         "Necessary Modules Imported Successfully."
     )
     await userbot.start()

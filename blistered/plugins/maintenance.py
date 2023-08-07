@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from strings import get_command, get_string
-from geezram import app
-from geezram.misc import SUDOERS
-from geezram.utils.database import (get_lang, is_maintenance,
+from blistered import app
+from blistered.misc import SUDOERS
+from blistered.utils.database import (get_lang, is_maintenance,
                                        maintenance_off,
                                        maintenance_on)
 

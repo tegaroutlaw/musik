@@ -8,16 +8,16 @@ from pyrogram.types import (InlineKeyboardButton,
 
 from config import BANNED_USERS, SERVER_PLAYLIST_LIMIT
 from strings import get_command
-from geezram import Carbon, YouTube, app
-from geezram.utils.database import (delete_playlist, get_playlist,
+from blistered import Carbon, YouTube, app
+from blistered.utils.database import (delete_playlist, get_playlist,
                                        get_playlist_names,
                                        save_playlist)
-from geezram.utils.decorators.language import language, languageCB
-from geezram.utils.inline.playlist import (botplaylist_markup,
+from blistered.utils.decorators.language import language, languageCB
+from blistered.utils.inline.playlist import (botplaylist_markup,
                                               get_playlist_markup,
                                               warning_markup)
-from geezram.utils.pastebin import Anonbin
-from geezram.utils.stream.stream import stream
+from blistered.utils.pastebin import Anonbin
+from blistered.utils.stream.stream import stream
 
 # Command
 PLAYLIST_COMMAND = get_command("PLAYLIST_COMMAND")

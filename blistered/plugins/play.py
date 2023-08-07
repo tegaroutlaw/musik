@@ -9,21 +9,21 @@ from pytgcalls.exceptions import NoActiveGroupCall
 import config
 from config import BANNED_USERS, lyrical
 from strings import get_command
-from geezram import (Apple, Resso, SoundCloud, Spotify, Telegram,
+from blistered import (Apple, Resso, SoundCloud, Spotify, Telegram,
                         YouTube, app)
-from geezram.core.call import Anon
-from geezram.utils import seconds_to_min, time_to_seconds
-from geezram.utils.channelplay import get_channeplayCB
-from geezram.utils.database import is_video_allowed
-from geezram.utils.decorators.language import languageCB
-from geezram.utils.decorators.play import PlayWrapper
-from geezram.utils.formatters import formats
-from geezram.utils.inline.play import (livestream_markup,
+from blistered.core.call import Anon
+from blistered.utils import seconds_to_min, time_to_seconds
+from blistered.utils.channelplay import get_channeplayCB
+from blistered.utils.database import is_video_allowed
+from blistered.utils.decorators.language import languageCB
+from blistered.utils.decorators.play import PlayWrapper
+from blistered.utils.formatters import formats
+from blistered.utils.inline.play import (livestream_markup,
                                           playlist_markup,
                                           slider_markup, track_markup)
-from geezram.utils.inline.playlist import botplaylist_markup
-from geezram.utils.logger import play_logs
-from geezram.utils.stream.stream import stream
+from blistered.utils.inline.playlist import botplaylist_markup
+from blistered.utils.logger import play_logs
+from blistered.utils.stream.stream import stream
 
 # Command
 PLAY_COMMAND = get_command("PLAY_COMMAND")

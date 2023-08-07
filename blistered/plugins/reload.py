@@ -5,13 +5,13 @@ from pyrogram.types import CallbackQuery, Message
 
 from config import BANNED_USERS, MUSIC_BOT_NAME, adminlist, lyrical
 from strings import get_command
-from geezram import app
-from geezram.core.call import Anon
-from geezram.misc import db
-from geezram.utils.database import get_authuser_names, get_cmode
-from geezram.utils.decorators import (ActualAdminCB, AdminActual,
+from blistered import app
+from blistered.core.call import Anon
+from blistered.misc import db
+from blistered.utils.database import get_authuser_names, get_cmode
+from blistered.utils.decorators import (ActualAdminCB, AdminActual,
                                          language)
-from geezram.utils.formatters import alpha_to_int
+from blistered.utils.formatters import alpha_to_int
 
 ### Multi-Lang Commands
 RELOAD_COMMAND = get_command("RELOAD_COMMAND")

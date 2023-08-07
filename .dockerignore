@@ -1,6 +1,6 @@
 .env
 .cache
-geezramlogs.txt
+blisteredlogs.txt
 .DS_Store
 *.session
 raw_files/

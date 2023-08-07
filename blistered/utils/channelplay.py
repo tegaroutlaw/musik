@@ -1,5 +1,5 @@
-from geezram import app
-from geezram.utils.database import get_cmode
+from blistered import app
+from blistered.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):

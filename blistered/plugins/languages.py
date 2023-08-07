@@ -4,9 +4,9 @@ from pyrogram.types import InlineKeyboardButton, Message
 
 from config import BANNED_USERS
 from strings import get_command, get_string
-from geezram import app
-from geezram.utils.database import get_lang, set_lang
-from geezram.utils.decorators import (ActualAdminCB, language,
+from blistered import app
+from blistered.utils.database import get_lang, set_lang
+from blistered.utils.decorators import (ActualAdminCB, language,
                                          languageCB)
 
 # Languages Available

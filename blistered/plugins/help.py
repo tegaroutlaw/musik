@@ -6,13 +6,13 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 import config
 from config import BANNED_USERS
 from strings import get_command, get_string, helpers
-from geezram import app
-from geezram.misc import SUDOERS
-from geezram.utils import help_pannel
-from geezram.utils.database import get_lang, is_commanddelete_on
-from geezram.utils.decorators.language import (LanguageStart,
+from blistered import app
+from blistered.misc import SUDOERS
+from blistered.utils import help_pannel
+from blistered.utils.database import get_lang, is_commanddelete_on
+from blistered.utils.decorators.language import (LanguageStart,
                                                   languageCB)
-from geezram.utils.inline.help import (help_back_markup,
+from blistered.utils.inline.help import (help_back_markup,
                                           private_help_panel)
 
 ### Command

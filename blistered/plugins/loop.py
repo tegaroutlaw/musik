@@ -3,10 +3,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from geezram import app
-from geezram.utils.database.memorydatabase import (get_loop,
+from blistered import app
+from blistered.utils.database.memorydatabase import (get_loop,
                                                       set_loop)
-from geezram.utils.decorators import AdminRightsCheck
+from blistered.utils.decorators import AdminRightsCheck
 
 # Commands
 LOOP_COMMAND = get_command("LOOP_COMMAND")

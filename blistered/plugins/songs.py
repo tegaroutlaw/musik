@@ -11,10 +11,10 @@ from pyrogram.types import (InlineKeyboardButton,
 from config import (BANNED_USERS, SONG_DOWNLOAD_DURATION,
                     SONG_DOWNLOAD_DURATION_LIMIT)
 from strings import get_command
-from geezram import YouTube, app
-from geezram.utils.decorators.language import language, languageCB
-from geezram.utils.formatters import convert_bytes
-from geezram.utils.inline.song import song_markup
+from blistered import YouTube, app
+from blistered.utils.decorators.language import language, languageCB
+from blistered.utils.formatters import convert_bytes
+from blistered.utils.inline.song import song_markup
 
 # Command
 SONG_COMMAND = get_command("SONG_COMMAND")

@@ -4,15 +4,15 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 import config
 from config import BANNED_USERS
 from strings import get_command
-from geezram import YouTube, app
-from geezram.core.call import Anon
-from geezram.misc import db
-from geezram.utils.database import get_loop
-from geezram.utils.decorators import AdminRightsCheck
-from geezram.utils.inline.play import (stream_markup,
+from blistered import YouTube, app
+from blistered.core.call import Anon
+from blistered.misc import db
+from blistered.utils.database import get_loop
+from blistered.utils.decorators import AdminRightsCheck
+from blistered.utils.inline.play import (stream_markup,
                                           telegram_markup)
-from geezram.utils.stream.autoclear import auto_clean
-from geezram.utils.thumbnails import gen_thumb
+from blistered.utils.stream.autoclear import auto_clean
+from blistered.utils.thumbnails import gen_thumb
 
 # Commands
 SKIP_COMMAND = get_command("SKIP_COMMAND")

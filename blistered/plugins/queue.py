@@ -8,14 +8,14 @@ from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 import config
 from config import BANNED_USERS
 from strings import get_command
-from geezram import app
-from geezram.misc import db
-from geezram.utils import (Anonbin, get_channeplayCB,
+from blistered import app
+from blistered.misc import db
+from blistered.utils import (Anonbin, get_channeplayCB,
                               seconds_to_min)
-from geezram.utils.database import (get_cmode, is_active_chat,
+from blistered.utils.database import (get_cmode, is_active_chat,
                                        is_music_playing)
-from geezram.utils.decorators.language import language, languageCB
-from geezram.utils.inline import queue_back_markup, queue_markup
+from blistered.utils.decorators.language import language, languageCB
+from blistered.utils.inline import queue_back_markup, queue_markup
 
 ###Commands
 QUEUE_COMMAND = get_command("QUEUE_COMMAND")

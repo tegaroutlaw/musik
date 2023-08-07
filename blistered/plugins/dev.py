@@ -11,8 +11,8 @@ from pyrogram import filters
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
 
-from geezram import app
-from geezram.misc import SUDOERS
+from blistered import app
+from blistered.misc import SUDOERS
 
 
 async def aexec(code, client, message):

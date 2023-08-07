@@ -3,10 +3,10 @@ from pyrogram.types import Message
 
 import config
 from strings import get_command
-from geezram import app
-from geezram.misc import SUDOERS
-from geezram.utils.database import add_off, add_on
-from geezram.utils.decorators.language import language
+from blistered import app
+from blistered.misc import SUDOERS
+from blistered.utils.database import add_off, add_on
+from blistered.utils.decorators.language import language
 
 # Commands
 VIDEOMODE_COMMAND = get_command("VIDEOMODE_COMMAND")

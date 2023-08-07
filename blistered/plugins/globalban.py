@@ -6,16 +6,16 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from geezram import app
-from geezram.misc import SUDOERS
-from geezram.utils import get_readable_time
-from geezram.utils.database import (add_banned_user,
+from blistered import app
+from blistered.misc import SUDOERS
+from blistered.utils import get_readable_time
+from blistered.utils.database import (add_banned_user,
                                        get_banned_count,
                                        get_banned_users,
                                        get_served_chats,
                                        is_banned_user,
                                        remove_banned_user)
-from geezram.utils.decorators.language import language
+from blistered.utils.decorators.language import language
 
 # Command
 GBAN_COMMAND = get_command("GBAN_COMMAND")

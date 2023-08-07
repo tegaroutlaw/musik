@@ -3,9 +3,9 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from geezram import app
-from geezram.utils.database import set_cmode
-from geezram.utils.decorators.admins import AdminActual
+from blistered import app
+from blistered.utils.database import set_cmode
+from blistered.utils.decorators.admins import AdminActual
 
 ### Multi-Lang Commands
 CHANNELPLAY_COMMAND = get_command("CHANNELPLAY_COMMAND")

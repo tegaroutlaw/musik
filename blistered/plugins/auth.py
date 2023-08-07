@@ -3,12 +3,12 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS, adminlist
 from strings import get_command
-from geezram import app
-from geezram.utils.database import (delete_authuser, get_authuser,
+from blistered import app
+from blistered.utils.database import (delete_authuser, get_authuser,
                                        get_authuser_names,
                                        save_authuser)
-from geezram.utils.decorators import AdminActual
-from geezram.utils.formatters import int_to_alpha
+from blistered.utils.decorators import AdminActual
+from blistered.utils.formatters import int_to_alpha
 
 # Command
 AUTH_COMMAND = get_command("AUTH_COMMAND")

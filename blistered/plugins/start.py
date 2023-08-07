@@ -9,18 +9,18 @@ import config
 from config import BANNED_USERS
 from config.config import OWNER_ID
 from strings import get_command, get_string
-from geezram import Telegram, YouTube, app
-from geezram.misc import SUDOERS
-from geezram.plugins.playlist import del_plist_msg
-from geezram.plugins.sudoers import sudoers_list
-from geezram.utils.database import (add_served_chat,
+from blistered import Telegram, YouTube, app
+from blistered.misc import SUDOERS
+from blistered.plugins.playlist import del_plist_msg
+from blistered.plugins.sudoers import sudoers_list
+from blistered.utils.database import (add_served_chat,
                                        add_served_user,
                                        blacklisted_chats,
                                        get_assistant, get_lang,
                                        get_userss, is_on_off,
                                        is_served_private_chat)
-from geezram.utils.decorators.language import LanguageStart
-from geezram.utils.inline import (help_pannel, private_panel,
+from blistered.utils.decorators.language import LanguageStart
+from blistered.utils.inline import (help_pannel, private_panel,
                                      start_pannel)
 
 loop = asyncio.get_running_loop()

@@ -1,6 +1,6 @@
 from typing import Dict, List, Union
 
-from geezram.core.mongo import mongodb
+from blistered.core.mongo import mongodb
 
 queriesdb = mongodb.queries
 userdb = mongodb.userstats

@@ -8,9 +8,9 @@ from pyrogram.raw import types
 import config
 from config import adminlist, chatstats, clean, userstats
 from strings import get_command
-from geezram import app
-from geezram.misc import SUDOERS
-from geezram.utils.database import (get_active_chats,
+from blistered import app
+from blistered.misc import SUDOERS
+from blistered.utils.database import (get_active_chats,
                                        get_authuser_names, get_client,
                                        get_particular_top,
                                        get_served_chats,
@@ -18,8 +18,8 @@ from geezram.utils.database import (get_active_chats,
                                        is_cleanmode_on, set_queries,
                                        update_particular_top,
                                        update_user_top)
-from geezram.utils.decorators.language import language
-from geezram.utils.formatters import alpha_to_int
+from blistered.utils.decorators.language import language
+from blistered.utils.formatters import alpha_to_int
 
 BROADCAST_COMMAND = get_command("BROADCAST_COMMAND")
 AUTO_DELETE = config.CLEANMODE_DELETE_MINS
@@ -154,7 +154,7 @@ async def braodcast_message(client, message, _):
     if "-assistant" in message.text:
         aw = await message.reply_text(_["broad_2"])
         text = _["broad_3"]
-        from geezram.core.userbot import assistants
+        from blistered.core.userbot import assistants
 
         for num in assistants:
             sent = 0

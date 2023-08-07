@@ -1,6 +1,6 @@
 import config
 from config import PRIVATE_BOT_MODE
-from geezram.core.mongo import mongodb
+from blistered.core.mongo import mongodb
 
 channeldb = mongodb.cplaymode
 commanddb = mongodb.commands

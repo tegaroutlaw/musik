@@ -3,14 +3,14 @@ import asyncio
 from pyrogram.types import InlineKeyboardMarkup
 
 from strings import get_string
-from geezram.misc import db
-from geezram.utils.database import (get_active_chats, get_lang,
+from blistered.misc import db
+from blistered.utils.database import (get_active_chats, get_lang,
                                        is_music_playing)
-from geezram.utils.formatters import seconds_to_min
-from geezram.utils.inline import (stream_markup_timer,
+from blistered.utils.formatters import seconds_to_min
+from blistered.utils.inline import (stream_markup_timer,
                                      telegram_markup_timer)
 
-from geezram.plugins.callback import wrong
+from blistered.plugins.callback import wrong
 
 checker = {}
 

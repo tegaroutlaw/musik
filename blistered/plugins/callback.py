@@ -6,19 +6,19 @@ from pyrogram.types import InlineKeyboardMarkup
 from config import (AUTO_DOWNLOADS_CLEAR, BANNED_USERS,
                     SOUNCLOUD_IMG_URL, STREAM_IMG_URL,
                     TELEGRAM_AUDIO_URL, TELEGRAM_VIDEO_URL, adminlist)
-from geezram import YouTube, app
-from geezram.core.call import Anon
-from geezram.misc import SUDOERS, db
-from geezram.utils.database import (is_active_chat,
+from blistered import YouTube, app
+from blistered.core.call import Anon
+from blistered.misc import SUDOERS, db
+from blistered.utils.database import (is_active_chat,
                                        is_music_playing, set_loop,
                                        is_nonadmin_chat, music_off,
                                        music_on)
-from geezram.utils.decorators.language import languageCB
-from geezram.utils.formatters import seconds_to_min
-from geezram.utils.inline.play import (stream_markup,
+from blistered.utils.decorators.language import languageCB
+from blistered.utils.formatters import seconds_to_min
+from blistered.utils.inline.play import (stream_markup,
                                           telegram_markup)
-from geezram.utils.stream.autoclear import auto_clean
-from geezram.utils.thumbnails import gen_thumb
+from blistered.utils.stream.autoclear import auto_clean
+from blistered.utils.thumbnails import gen_thumb
 
 wrong = {}
 

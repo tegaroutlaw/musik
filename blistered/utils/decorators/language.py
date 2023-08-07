@@ -1,6 +1,6 @@
 from strings import get_string
-from geezram.misc import SUDOERS
-from geezram.utils.database import (get_lang, is_commanddelete_on,
+from blistered.misc import SUDOERS
+from blistered.utils.database import (get_lang, is_commanddelete_on,
                                        is_maintenance)
 
 

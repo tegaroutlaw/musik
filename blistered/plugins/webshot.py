@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from geezram import app
-from geezram.utils.errors import capture_err
+from blistered import app
+from blistered.utils.errors import capture_err
 
 
 @app.on_message(filters.command("webss"))

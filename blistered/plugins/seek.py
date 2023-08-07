@@ -3,10 +3,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from geezram import YouTube, app
-from geezram.core.call import Anon
-from geezram.misc import db
-from geezram.utils import AdminRightsCheck, seconds_to_min
+from blistered import YouTube, app
+from blistered.core.call import Anon
+from blistered.misc import db
+from blistered.utils import AdminRightsCheck, seconds_to_min
 
 # Commands
 SEEK_COMMAND = get_command("SEEK_COMMAND")

@@ -1,10 +1,10 @@
 from pyrogram import filters
 
 from config import BANNED_USERS
-from geezram import YouTube, app
-from geezram.utils.channelplay import get_channeplayCB
-from geezram.utils.decorators.language import languageCB
-from geezram.utils.stream.stream import stream
+from blistered import YouTube, app
+from blistered.utils.channelplay import get_channeplayCB
+from blistered.utils.decorators.language import languageCB
+from blistered.utils.stream.stream import stream
 
 
 @app.on_callback_query(filters.regex("LiveStream") & ~BANNED_USERS)

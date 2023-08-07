@@ -1,7 +1,7 @@
 import random
 
-from geezram import userbot
-from geezram.core.mongo import mongodb
+from blistered import userbot
+from blistered.core.mongo import mongodb
 
 db = mongodb.assistants
 
@@ -22,7 +22,7 @@ async def get_client(assistant: int):
 
 
 async def set_assistant(chat_id):
-    from geezram.core.userbot import assistants
+    from blistered.core.userbot import assistants
 
     ran_assistant = random.choice(assistants)
     assistantdict[chat_id] = ran_assistant
@@ -36,7 +36,7 @@ async def set_assistant(chat_id):
 
 
 async def get_assistant(chat_id: int) -> str:
-    from geezram.core.userbot import assistants
+    from blistered.core.userbot import assistants
 
     assistant = assistantdict.get(chat_id)
     if not assistant:
@@ -63,7 +63,7 @@ async def get_assistant(chat_id: int) -> str:
 
 
 async def set_calls_assistant(chat_id):
-    from geezram.core.userbot import assistants
+    from blistered.core.userbot import assistants
 
     ran_assistant = random.choice(assistants)
     assistantdict[chat_id] = ran_assistant
@@ -76,7 +76,7 @@ async def set_calls_assistant(chat_id):
 
 
 async def group_assistant(self, chat_id: int) -> int:
-    from geezram.core.userbot import assistants
+    from blistered.core.userbot import assistants
 
     assistant = assistantdict.get(chat_id)
     if not assistant:

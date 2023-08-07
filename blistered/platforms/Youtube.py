@@ -8,8 +8,8 @@ from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
 
 import config
-from geezram.utils.database import is_on_off
-from geezram.utils.formatters import time_to_seconds
+from blistered.utils.database import is_on_off
+from blistered.utils.formatters import time_to_seconds
 
 
 async def shell_cmd(cmd):

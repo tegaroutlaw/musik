@@ -5,9 +5,9 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from geezram import app
-from geezram.misc import db
-from geezram.utils.decorators import AdminRightsCheck
+from blistered import app
+from blistered.misc import db
+from blistered.utils.decorators import AdminRightsCheck
 
 # Commands
 SHUFFLE_COMMAND = get_command("SHUFFLE_COMMAND")

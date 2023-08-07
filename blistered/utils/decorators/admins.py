@@ -2,9 +2,9 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from config import adminlist
 from strings import get_string
-from geezram import app
-from geezram.misc import SUDOERS
-from geezram.utils.database import (get_authuser_names, get_cmode,
+from blistered import app
+from blistered.misc import SUDOERS
+from blistered.utils.database import (get_authuser_names, get_cmode,
                                        get_lang, is_active_chat,
                                        is_commanddelete_on,
                                        is_maintenance,

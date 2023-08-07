@@ -1,6 +1,6 @@
 import aiohttp
 from pyrogram import filters
-from geezram import app
+from blistered import app
 
 
 @app.on_message(filters.command(["github", "git"]))

@@ -1,9 +1,9 @@
 from pyrogram import filters
 
 from strings import get_command
-from geezram import app
-from geezram.misc import SUDOERS
-from geezram.utils.database import autoend_off, autoend_on
+from blistered import app
+from blistered.misc import SUDOERS
+from blistered.utils.database import autoend_off, autoend_on
 
 # Commands
 AUTOEND_COMMAND = get_command("AUTOEND_COMMAND")

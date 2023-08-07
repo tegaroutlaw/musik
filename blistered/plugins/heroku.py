@@ -15,13 +15,13 @@ from pyrogram import filters
 
 import config
 from strings import get_command
-from geezram import app
-from geezram.misc import HAPP, SUDOERS, XCB
-from geezram.utils.database import (get_active_chats,
+from blistered import app
+from blistered.misc import HAPP, SUDOERS, XCB
+from blistered.utils.database import (get_active_chats,
                                        remove_active_chat,
                                        remove_active_video_chat)
-from geezram.utils.decorators.language import language
-from geezram.utils.pastebin import Anonbin
+from blistered.utils.decorators.language import language
+from blistered.utils.pastebin import Anonbin
 
 # Commands
 GETLOG_COMMAND = get_command("GETLOG_COMMAND")
