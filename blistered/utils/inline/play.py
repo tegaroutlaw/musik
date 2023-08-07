@@ -106,7 +106,7 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="ᴄʟᴏsᴇ", callback_data=f"close"
+                text="ᴏᴡɴᴇʀ", url="https://t.me/Deflowrs"
             ),
         ],
         [
@@ -122,7 +122,7 @@ def telegram_markup(_, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="ᴄʟᴏsᴇ", callback_data=f"close"
+                text="ᴏᴡɴᴇʀ", url="https://t.me/Deflowrs"
             ),
         
         ],
@@ -265,7 +265,7 @@ def queue_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="ᴄʟᴏsᴇ", callback_data=f"close"
+                text="ᴏᴡɴᴇʀ", url="https://t.me/Deflowrs"
             )
         ],
         [
