@@ -83,7 +83,7 @@ async def gen_thumb(videoid):
             background = enhancer.enhance(0.6)
             image2 = background
                                                                                             
-            circle = Image.open("geezram/assets/circle.png")
+            circle = Image.open("blistered/assets/circle.png")
 
             # changing circle color
             im = circle
@@ -115,10 +115,10 @@ async def gen_thumb(videoid):
             image2.paste(circle, (0,0), mask = circle)
 
             # fonts
-            font1 = ImageFont.truetype('geezram/assets/font.ttf', 30)
-            font2 = ImageFont.truetype('geezram/assets/font2.ttf', 70)
-            font3 = ImageFont.truetype('geezram/assets/font2.ttf', 40)
-            font4 = ImageFont.truetype('geezram/assets/font2.ttf', 35)
+            font1 = ImageFont.truetype('blistered/assets/font.ttf', 30)
+            font2 = ImageFont.truetype('blistered/assets/font2.ttf', 70)
+            font3 = ImageFont.truetype('blistered/assets/font2.ttf', 40)
+            font4 = ImageFont.truetype('blistered/assets/font2.ttf', 35)
 
             image4 = ImageDraw.Draw(image2)
             image4.text((10, 10), "Blistered Outlaw", fill="white", font = font1, align ="left") 
@@ -194,7 +194,7 @@ async def gen_qthumb(videoid):
             background = enhancer.enhance(0.6)
             image2 = background
                                                                                             
-            circle = Image.open("geezram/assets/circle.png")
+            circle = Image.open("blistered/assets/circle.png")
 
             # changing circle color
             im = circle
@@ -226,10 +226,10 @@ async def gen_qthumb(videoid):
             image2.paste(circle, (0,0), mask = circle)
 
             # fonts
-            font1 = ImageFont.truetype('geezram/assets/font.ttf', 30)
-            font2 = ImageFont.truetype('geezram/assets/font2.ttf', 70)
-            font3 = ImageFont.truetype('geezram/assets/font2.ttf', 40)
-            font4 = ImageFont.truetype('geezram/assets/font2.ttf', 35)
+            font1 = ImageFont.truetype('blistered/assets/font.ttf', 30)
+            font2 = ImageFont.truetype('blistered/assets/font2.ttf', 70)
+            font3 = ImageFont.truetype('blistered/assets/font2.ttf', 40)
+            font4 = ImageFont.truetype('blistered/assets/font2.ttf', 35)
 
             image4 = ImageDraw.Draw(image2)
             image4.text((10, 10), "managed by izzy", fill="white", font = font1, align ="left") 
