@@ -24,10 +24,10 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="ᴍᴀɪɴᴛᴀɪɴᴇʀ", user_id=OWNER),
-            InlineKeyboardButton(
-                text="sᴜᴩᴩᴏʀᴛ", url=config.SUPPORT_GROUP
-            ),
+                text="ᴏᴡɴᴇʀ", user_id=OWNER)
+            #InlineKeyboardButton(
+            #    text="sᴜᴩᴩᴏʀᴛ", url=config.SUPPORT_GROUP
+            #),
         ],
      ]
     return buttons
@@ -47,15 +47,15 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             ),
         ],
         [
-            InlineKeyboardButton(text="ᴍᴀɪɴᴛᴀɪɴᴇʀ", user_id=OWNER),
-            InlineKeyboardButton(
-                text="sᴜᴩᴩᴏʀᴛ", url=config.SUPPORT_GROUP
-            ),
+            InlineKeyboardButton(text="ᴏᴡɴᴇʀ", user_id=OWNER),
+            #InlineKeyboardButton(
+            #    text="sᴜᴩᴩᴏʀᴛ", url=config.SUPPORT_GROUP
+            #),
         ],
-        [
-            InlineKeyboardButton(
-                    text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url=config.UPSTREAM_REPO
-                )
-        ],
+        #[
+        #    InlineKeyboardButton(
+        #            text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url=config.UPSTREAM_REPO
+        #        )
+        #],
      ]
     return buttons

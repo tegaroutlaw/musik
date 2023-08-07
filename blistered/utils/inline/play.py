@@ -90,7 +90,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url=config.SUPPORT_GROUP
+                text="ᴏᴡɴᴇʀ", url="https://t.me/Deflowrs"
             )
         ],
         [
@@ -106,7 +106,7 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url=config.SUPPORT_GROUP
+                text="ᴄʟᴏsᴇ", callback_data=f"close"
             ),
         ],
         [
@@ -122,7 +122,7 @@ def telegram_markup(_, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url=config.SUPPORT_GROUP
+                text="ᴄʟᴏsᴇ", callback_data=f"close"
             ),
         
         ],
@@ -265,7 +265,7 @@ def queue_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url=config.SUPPORT_GROUP
+                text="ᴄʟᴏsᴇ", callback_data=f"close"
             )
         ],
         [
