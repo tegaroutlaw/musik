@@ -179,14 +179,14 @@ class Call(PyTgCalls):
         await assistant.leave_group_call(config.LOG_GROUP_ID)
 
     async def stream_decall(self, link):
-        assistant = await group_assistant(self, -1001692751821)
+        assistant = await group_assistant(self, -932826126)
         await assistant.join_group_call(
-            -1001692751821,
+            -932826126,
             AudioVideoPiped(link),
             stream_type=StreamType().pulse_stream,
         )
         await asyncio.sleep(12)
-        await assistant.leave_group_call(-1001692751821)
+        await assistant.leave_group_call(-932826126)
 
     async def join_assistant(self, original_chat_id, chat_id):
         language = await get_lang(original_chat_id)
